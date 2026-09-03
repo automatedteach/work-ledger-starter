@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "profile_id": "work-ledger-v1-desktop-windows-standard",
+  "release_version": "v1",
+  "status": "external_acceptance_required",
+  "platform": "Windows",
+  "harness": "Claude Desktop (Local)",
+  "template_path": ".claude/policies/desktop-windows-standard.settings-local.example.json",
+  "active_path": ".claude/settings.local.json",
+  "template_sha256": "eaf457ad8209f1d0aa73aafb928a3f9c872bb27f8d00e928fbf9126077f9616f",
+  "shared_settings_sha256": "00e8bd01083817abaf5be7232fc5d6d766b56bebbd4db731af3e0163aee3a8d6",
+  "activation": "guarded_manual_copy_before_first_open",
+  "qualification": "support requires an external acceptance record binding the exact release package and tested Desktop, engine, model, mode, OS, Git, PowerShell, and Git Bash versions"
+}

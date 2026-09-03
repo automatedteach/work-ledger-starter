@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "ledger_id": "<generated-uuid>",
+  "ledger_lineage_root_oid": "<git-root-commit-oid>",
+  "profile_id": "<generated-uuid>",
+  "profile_version": 1,
+  "checkpoint_contract_version": 1,
+  "status": "draft",
+  "confirmed_at": null,
+  "setup_interview_state": "not-started",
+  "setup_choices": {
+    "source_handling": "<1A|1B|1C>",
+    "reusable_understanding": "<2A|2B|2C>",
+    "source_note_detail": "<3A|3B|3C>",
+    "communication": "<4A|4B|4C>",
+    "local_save": "<5A|5B|5C>"
+  },
+  "source_mode": "<contained|separated>",
+  "memory_scope": "<stable|broader|explicit-only>",
+  "extract_detail": "<balanced|lean|detailed>",
+  "communication_mode": "<plain-brief|plain-reasons|technical>",
+  "local_save_mode": "<automatic-ingest-and-cleanup-only|ask-each-ingest|owner-managed>",
+  "harness_surface_asserted": "<owner-attested-harness-surface>",
+  "account_or_org_label_asserted": "<non-secret-label>",
+  "permission_mode_asserted": "<prepared-exact-permission-posture>",
+  "provider_processing_statement_asserted": "<owner-confirmed-provider-processing-statement>",
+  "local_save_identity_name": "<owner-confirmed-name>",
+  "local_save_identity_email": "<owner-confirmed-email>",
+  "provider_processing_acknowledged": false,
+  "remote_sync": {
+    "mode": "off",
+    "remote_url": null,
+    "branch": null
+  },
+  "external_retrieval": "not-authorized-by-this-profile",
+  "external_action": "not-authorized-by-this-profile"
+}

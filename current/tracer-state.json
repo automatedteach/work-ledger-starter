@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "activation_status": "active",
+  "ledger_instance_id": null,
+  "claim_generation": 0,
+  "register_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cutover": {
+    "kind": "native",
+    "baseline_oid": null,
+    "adoption_decision_ref": null
+  }
+}

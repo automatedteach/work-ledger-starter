@@ -1,0 +1,55 @@
+# Track portable ledger artifacts.
+# Verified GREEN originals and extracts are tracked.
+
+# New GREEN sources, including personal recollections, live under sources/green/.
+# Historical tracked source paths remain governed in place; do not move them implicitly.
+
+# Legacy pointer files remain ignored and are never a new-ingestion target.
+# v1 records any new safe YELLOW pointer as metadata in the tracked manifest.
+sources/pointers/**
+!sources/pointers/
+!sources/pointers/.gitkeep
+
+# macOS Finder and archive metadata
+.DS_Store
+._*
+__MACOSX/
+
+# Local caches and secrets
+caches/
+tools/ledger-tier1.sh
+.env
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+*.secret
+credentials.*
+secrets.*
+
+# Claude Code machine-local and runtime state
+.claude/worktrees/
+.claude/settings.local.json
+.claude/agent-memory-local/
+CLAUDE.local.md
+
+# The profiled deliberate-add folder is local-only.
+add-files-here/**
+!add-files-here/
+!add-files-here/.gitkeep
+
+# Retired intake paths remain ignored as leakage protection only. Agents do not
+# process intake/drop-verified/ as a compatibility input.
+intake/drop-verified/**
+intake/processed/**
+intake/needs-review/**
+intake/do-not-ingest/**
+
+# Keep internal review/processed placeholders tracked.
+!intake/processed/
+!intake/processed/.gitkeep
+!intake/needs-review/
+!intake/needs-review/.gitkeep
+!intake/do-not-ingest/
+!intake/do-not-ingest/.gitkeep

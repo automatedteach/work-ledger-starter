@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "autoMemoryEnabled": false,
+  "disableArtifact": true,
+  "env": {
+    "CLAUDE_BASH_MAINTAIN_PROJECT_WORKING_DIR": "1"
+  },
+  "worktree": {
+    "baseRef": "head"
+  },
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "disableAutoMode": "disable",
+    "disableBypassPermissionsMode": "disable",
+    "ask": [
+      "Bash(git push *)",
+      "Bash(git remote add *)",
+      "Bash(git remote remove *)",
+      "Bash(git remote rename *)",
+      "Bash(git remote set-url *)",
+      "Bash(git --no-replace-objects push *)",
+      "Bash(git --no-replace-objects remote add *)",
+      "Bash(git --no-replace-objects remote remove *)",
+      "Bash(git --no-replace-objects remote rename *)",
+      "Bash(git --no-replace-objects remote set-url *)",
+      "PowerShell(git push *)",
+      "PowerShell(git remote add *)",
+      "PowerShell(git remote remove *)",
+      "PowerShell(git remote rename *)",
+      "PowerShell(git remote set-url *)",
+      "PowerShell(git --no-replace-objects push *)",
+      "PowerShell(git --no-replace-objects remote add *)",
+      "PowerShell(git --no-replace-objects remote remove *)",
+      "PowerShell(git --no-replace-objects remote rename *)",
+      "PowerShell(git --no-replace-objects remote set-url *)"
+    ],
+    "allow": [
+      "Agent(claim-reviewer)",
+      "Agent(ledger-worker)",
+      "Skill(intake-ingest)"
+    ],
+    "deny": [
+      "Agent(Explore)",
+      "Agent(Plan)",
+      "Edit(/.git/**)",
+      "Bash(git reset --hard *)",
+      "Bash(git clean -f*)",
+      "Bash(git push --force*)",
+      "Bash(git push * --force*)",
+      "Bash(git checkout -- *)",
+      "Bash(git stash drop *)",
+      "Bash(git rebase *)",
+      "Bash(git filter-branch *)",
+      "Bash(git --no-replace-objects reset --hard *)",
+      "Bash(git --no-replace-objects clean -f*)",
+      "Bash(git --no-replace-objects push --force*)",
+      "Bash(git --no-replace-objects push * --force*)",
+      "Bash(git --no-replace-objects checkout -- *)",
+      "Bash(git --no-replace-objects stash drop *)",
+      "Bash(git --no-replace-objects rebase *)",
+      "Bash(git --no-replace-objects filter-branch *)",
+      "PowerShell(git reset --hard *)",
+      "PowerShell(git clean -f*)",
+      "PowerShell(git push --force*)",
+      "PowerShell(git push * --force*)",
+      "PowerShell(git checkout -- *)",
+      "PowerShell(git stash drop *)",
+      "PowerShell(git rebase *)",
+      "PowerShell(git filter-branch *)",
+      "PowerShell(git --no-replace-objects reset --hard *)",
+      "PowerShell(git --no-replace-objects clean -f*)",
+      "PowerShell(git --no-replace-objects push --force*)",
+      "PowerShell(git --no-replace-objects push * --force*)",
+      "PowerShell(git --no-replace-objects checkout -- *)",
+      "PowerShell(git --no-replace-objects stash drop *)",
+      "PowerShell(git --no-replace-objects rebase *)",
+      "PowerShell(git --no-replace-objects filter-branch *)"
+    ]
+  }
+}

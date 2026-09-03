@@ -1,0 +1,24 @@
+.gitattributes text eol=lf
+.gitignore text eol=lf
+.gitkeep text eol=lf
+LICENSE text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+artifacts/**/*.txt text eol=lf
+sources/contained/**/source.* -text
+sources/green/**/original.* -text
+artifacts/evaluation/*.json text eol=lf
+artifacts/evaluation/context-document/*.sha256 text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+tests/fixtures/**/*.txt text eol=lf
+tests/fixtures/**/*.ini text eol=lf
+tools/neutral-ledger-package.ps1 text eol=lf
+*.sh text eol=lf
+*.cmd text eol=crlf
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.pptx binary
+*.db binary

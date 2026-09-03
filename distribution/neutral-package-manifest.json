@@ -1,0 +1,645 @@
+{
+  "schema_version": 2,
+  "kind": "work-ledger-neutral-package-manifest",
+  "manifest_path": "distribution/neutral-package-manifest.json",
+  "rules": [
+    {
+      "ordinal": 1,
+      "path": ".agents/skills/intake-ingest/SKILL.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 2,
+      "path": ".agents/skills/intake-ingest/agents/openai.yaml",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 3,
+      "path": ".agents/skills/intake-ingest/references/macos-primitives.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 4,
+      "path": ".claude/agents/claim-reviewer.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 5,
+      "path": ".claude/agents/ledger-worker.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 6,
+      "path": ".claude/policies/desktop-macos-standard.profile.json",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 7,
+      "path": ".claude/policies/desktop-macos-standard.settings-local.example.json",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 8,
+      "path": ".claude/policies/desktop-windows-standard.profile.json",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 9,
+      "path": ".claude/policies/desktop-windows-standard.settings-local.example.json",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 10,
+      "path": ".claude/settings.json",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 11,
+      "path": ".claude/skills/intake-ingest/SKILL.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 12,
+      "path": ".claude/skills/intake-ingest/references/established-ledger-routing.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 13,
+      "path": ".claude/skills/intake-ingest/references/fresh-setup-execution.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 14,
+      "path": ".claude/skills/intake-ingest/references/post-consent-execution.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 15,
+      "path": ".gitattributes",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 16,
+      "path": ".gitignore",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 17,
+      "path": "AGENTS.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 18,
+      "path": "CLAUDE.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 19,
+      "path": "EXTERNAL-CONTEXT-AND-GARDEN.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 20,
+      "path": "LICENSE",
+      "class": "seed-copy",
+      "source_role": "seed-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 21,
+      "path": "MIGRATE-AN-EXISTING-LEDGER.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 22,
+      "path": "PROTOCOL-REFERENCE.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 23,
+      "path": "PROTOCOL.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 24,
+      "path": "README.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 25,
+      "path": "START-HERE.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 26,
+      "path": "SYNC-BETWEEN-DEVICES.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 27,
+      "path": "TIER-1-OPTIONAL.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 28,
+      "path": "TRACER-RATIONALE.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 29,
+      "path": "TRACER.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 30,
+      "path": "add-files-here/.gitkeep",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 31,
+      "path": "artifacts/.gitkeep",
+      "class": "seed-copy",
+      "source_role": "seed-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 32,
+      "path": "artifacts/gardening/README.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 33,
+      "path": "artifacts/gardening/garden-proposal-template.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 34,
+      "path": "artifacts/gardening/weekly-garden-prompt.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 35,
+      "path": "current/claims.jsonl",
+      "class": "generated-exact",
+      "source_role": "manifest-inline",
+      "mode": "100644",
+      "transform": "decode-base64-exact",
+      "content_base64": "",
+      "byte_length": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "ordinal": 36,
+      "path": "current/context-map.md",
+      "class": "generated-exact",
+      "source_role": "manifest-inline",
+      "mode": "100644",
+      "transform": "decode-base64-exact",
+      "content_base64": "IyBDb250ZXh0IE1hcAoKIyMgV29ya3N0cmVhbXMKCnwgSUQgfCBUaXRsZSB8IFN0YXR1cyB8IE5leHQgYWN0aW9uIHwgTGFzdCByZXZpZXdlZCB8IFJvdXRlcyB8IENsYWltcyB8CnwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwgLS0tIHwKCk5vIHdvcmtzdHJlYW1zIGhhdmUgYmVlbiBhZG9wdGVkLgoKTm8gdXNlciBjb250ZXh0IGhhcyBiZWVuIGluZ2VzdGVkLgoKTm8gb3BlcmF0aW9uYWwgY29udGV4dCByb3V0ZXMgYXJlIGRlZmluZWQuCg==",
+      "byte_length": 262,
+      "sha256": "f57c74ba614ba61cabf831f132f53c816b7052ee9f3e8b39ea29ef2f79489a40"
+    },
+    {
+      "ordinal": 37,
+      "path": "current/context-pack.md",
+      "class": "generated-exact",
+      "source_role": "manifest-inline",
+      "mode": "100644",
+      "transform": "decode-base64-exact",
+      "content_base64": "IyBDb250ZXh0IFBhY2sKCk5vIHVzZXIgY29udGV4dCBoYXMgYmVlbiBpbmdlc3RlZC4KClRoaXMgbmV1dHJhbCBzY2FmZm9sZCB3aWxsIGhvbGQgY29uY2lzZSBkdXJhYmxlIGNvbnRleHQgYWZ0ZXIgb3duZXItcmV2aWV3ZWQgc2VtYW50aWMgYWRvcHRpb24gZXN0YWJsaXNoZXMgaXQgYXMgY3VycmVudCBzdGF0ZS4K",
+      "byte_length": 180,
+      "sha256": "b2da31fbd1c4dcb7fd9e4d53c32f3b6c8f34f9fbccd72aa0c16bce3ce249504f"
+    },
+    {
+      "ordinal": 38,
+      "path": "current/decisions.md",
+      "class": "seed-copy",
+      "source_role": "seed-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 39,
+      "path": "current/open-loops.md",
+      "class": "seed-copy",
+      "source_role": "seed-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 40,
+      "path": "current/technical-preferences.md",
+      "class": "seed-copy",
+      "source_role": "seed-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 41,
+      "path": "current/tracer-state.json",
+      "class": "generated-exact",
+      "source_role": "manifest-inline",
+      "mode": "100644",
+      "transform": "decode-base64-exact",
+      "content_base64": "ewogICJzY2hlbWFfdmVyc2lvbiI6IDEsCiAgImFjdGl2YXRpb25fc3RhdHVzIjogImFjdGl2ZSIsCiAgImxlZGdlcl9pbnN0YW5jZV9pZCI6IG51bGwsCiAgImNsYWltX2dlbmVyYXRpb24iOiAwLAogICJyZWdpc3Rlcl9zaGEyNTYiOiAiZTNiMGM0NDI5OGZjMWMxNDlhZmJmNGM4OTk2ZmI5MjQyN2FlNDFlNDY0OWI5MzRjYTQ5NTk5MWI3ODUyYjg1NSIsCiAgImN1dG92ZXIiOiB7CiAgICAia2luZCI6ICJuYXRpdmUiLAogICAgImJhc2VsaW5lX29pZCI6IG51bGwsCiAgICAiYWRvcHRpb25fZGVjaXNpb25fcmVmIjogbnVsbAogIH0KfQo=",
+      "byte_length": 305,
+      "sha256": "683ab231b6cf194244d15e0ed0b56ee936f36b91450e1fadc0133554df42bbc2"
+    },
+    {
+      "ordinal": 42,
+      "path": "distribution/neutral-package-manifest.json",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 43,
+      "path": "dossiers/active/.gitkeep",
+      "class": "seed-copy",
+      "source_role": "seed-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 44,
+      "path": "dossiers/templates/task-dossier.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 45,
+      "path": "sources/contained/.gitkeep",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 46,
+      "path": "sources/green/.gitkeep",
+      "class": "seed-copy",
+      "source_role": "seed-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 47,
+      "path": "sources/manifest.jsonl",
+      "class": "seed-copy",
+      "source_role": "seed-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 48,
+      "path": "templates/checkpoint-receipt.example.json",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 49,
+      "path": "templates/claim-review-evidence.example.json",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 50,
+      "path": "templates/claim-review-rubric.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 51,
+      "path": "templates/garden-prompt.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 52,
+      "path": "templates/heavy-garden-review.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 53,
+      "path": "templates/operating-profile.example.json",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 54,
+      "path": "templates/source-review-profile.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 55,
+      "path": "tests/fixtures/tracer-conformance/README.md",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 56,
+      "path": "tests/fixtures/tracer-conformance/cases.jsonl",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 57,
+      "path": "tests/fixtures/tracer-conformance/rubric.json",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    },
+    {
+      "ordinal": 58,
+      "path": "tests/fixtures/tracer-conformance/trial-log.example.json",
+      "class": "product-copy",
+      "source_role": "product-commit",
+      "mode": "100644",
+      "transform": "copy-exact"
+    }
+  ],
+  "forbidden_exact_paths": [
+    ".claude/settings.local.json",
+    "CLAUDE.local.md",
+    "current/operating-profile.json"
+  ],
+  "forbidden_path_scopes": [
+    {
+      "prefix": ".git/",
+      "allowed_exact": []
+    },
+    {
+      "prefix": "add-files-here/",
+      "allowed_exact": [
+        "add-files-here/.gitkeep"
+      ]
+    },
+    {
+      "prefix": "archive/",
+      "allowed_exact": []
+    },
+    {
+      "prefix": "artifacts/",
+      "allowed_exact": [
+        "artifacts/.gitkeep",
+        "artifacts/gardening/README.md",
+        "artifacts/gardening/garden-proposal-template.md",
+        "artifacts/gardening/weekly-garden-prompt.md"
+      ]
+    },
+    {
+      "prefix": "caches/",
+      "allowed_exact": []
+    },
+    {
+      "prefix": "current/",
+      "allowed_exact": [
+        "current/claims.jsonl",
+        "current/context-map.md",
+        "current/context-pack.md",
+        "current/decisions.md",
+        "current/open-loops.md",
+        "current/technical-preferences.md",
+        "current/tracer-state.json"
+      ]
+    },
+    {
+      "prefix": "dossiers/active/",
+      "allowed_exact": [
+        "dossiers/active/.gitkeep"
+      ]
+    },
+    {
+      "prefix": "dossiers/archive/",
+      "allowed_exact": []
+    },
+    {
+      "prefix": "intake/",
+      "allowed_exact": []
+    },
+    {
+      "prefix": "imported-legacy/",
+      "allowed_exact": []
+    },
+    {
+      "prefix": "optional-tools/",
+      "allowed_exact": []
+    },
+    {
+      "prefix": "profiles/",
+      "allowed_exact": []
+    },
+    {
+      "prefix": "sources/",
+      "allowed_exact": [
+        "sources/contained/.gitkeep",
+        "sources/green/.gitkeep",
+        "sources/manifest.jsonl"
+      ]
+    },
+    {
+      "prefix": "tools/",
+      "allowed_exact": []
+    }
+  ],
+  "forbidden_content_regexes": [
+    "(?i)[a-z]:[\\\\/](?:users|documents and settings)[\\\\/]",
+    "(?i)/(?:users|home)/[^/\\s]+/",
+    "\\u00e2[\\u0080-\\u009f\\u0152\\u0153\\u0178\\u2013-\\u2022\\u2030\\u2039\\u203a\\u20ac\\u2122]",
+    "\\u00c2[\\u0080-\\u00bf]",
+    "\\u00c3[\\u0080-\\u00bf\\u0152\\u0153\\u0178\\u2013-\\u2022\\u2030\\u2039\\u203a\\u20ac\\u2122]",
+    "\\u00f0[\\u0080-\\u00bf\\u0152\\u0153\\u0178\\u20ac\\u2122]"
+  ],
+  "release_envelope": {
+    "schema_version": 1,
+    "kind": "work-ledger-neutral-release-envelope",
+    "privacy_terms_external_only": true
+  },
+  "receipt_fields": [
+    "schema_version",
+    "kind",
+    "source_commit",
+    "source_tree",
+    "source_file_count",
+    "product_commit",
+    "product_tree",
+    "product_file_count",
+    "seed_commit",
+    "seed_tree",
+    "seed_root",
+    "seed_parentless",
+    "manifest_sha256",
+    "release_envelope_sha256",
+    "cutter_receipt_sha256",
+    "tooling_commit",
+    "tooling_tree",
+    "tooling_files",
+    "allowed_changes",
+    "prepared_tree_digest",
+    "package_digest_algorithm",
+    "package_digest",
+    "entries",
+    "output_root_name",
+    "output_branch",
+    "output_commit",
+    "output_tree",
+    "output_file_count",
+    "output_repository_file_count",
+    "output_repository_digest",
+    "output_ref_inventory",
+    "reachable_object_count",
+    "reachable_object_inventory_sha256",
+    "git_config_sha256",
+    "git_index_sha256",
+    "zip_entry_count",
+    "zip_byte_length",
+    "zip_sha256",
+    "root_commit_identity",
+    "verified_invariants"
+  ],
+  "cutter_receipt_fields": [
+    "schema_version",
+    "kind",
+    "manifest_sha256",
+    "release_envelope_sha256",
+    "seed_commit",
+    "seed_tree",
+    "seed_root",
+    "seed_parentless",
+    "product_commit",
+    "product_tree",
+    "tooling_commit",
+    "tooling_tree",
+    "tooling_files",
+    "output_name",
+    "output_file_count",
+    "output_byte_count",
+    "package_digest_algorithm",
+    "package_digest",
+    "no_remote_or_git_mutation",
+    "source_freeze_revalidated",
+    "entries"
+  ]
+}
