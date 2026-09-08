@@ -1,8 +1,9 @@
 # Start Here — Work Ledger v1
 
-This guide starts a new ledger on Windows or Mac using Claude Desktop
-Code/Local or Codex desktop Local. Use the named self-contained release ZIP,
-extract it into a new folder and keep its contents together. Do not copy it
+This guide starts a new ledger on Windows or Mac using Claude Desktop's
+Code tab or Codex in the ChatGPT desktop app, in Local mode. Use the named
+self-contained release ZIP, extract it into a new folder and keep its contents
+together. Do not copy it
 over an existing ledger or substitute GitHub's automatic source-code ZIP.
 
 ## 1. Install the prerequisites
@@ -184,10 +185,10 @@ For help, use the release page contact details. Report reproducible bugs through
 GitHub with your release filename, OS, app, step and observed result. Remove
 private content from anything shared.
 
-v1 is a limited preview. This guide describes the intended routes; it does not
-self-certify compatibility. The release notes identify the actual package,
-observed environments, tested journeys and known limits. CLI results do not
-certify desktop behavior, and syntax inspection does not certify Mac behavior.
+v1 is the first public release of Work Ledger. Feedback from real projects will
+help shape future updates. See the
+[release page](https://github.com/automatedteach/work-ledger-starter/releases/tag/v1)
+for the starter ZIP and support contacts.
 
 Existing-ledger migration and device synchronization are downstream; do not
 overlay this starter on an existing ledger. The optional Tier 1 helper is not

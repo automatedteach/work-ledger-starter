@@ -2,12 +2,13 @@
 
 Work Ledger helps your assistant carry useful context between tasks: your goals,
 decisions, working material and unresolved questions. You keep that context in
-a folder on your computer and use it through Claude Desktop Code/Local or Codex
-desktop Local.
+a folder on your computer and use it through Claude Desktop's Code tab or
+Codex in the ChatGPT desktop app, using Local mode.
 
-Start with [START-HERE.md](START-HERE.md). It covers Windows and Mac, with
-separate steps where the operating system or app requires them. Use the named,
-self-contained release ZIP and extract it into a new folder. Keep its contents
+Download [work-ledger-v1.zip](https://github.com/automatedteach/work-ledger-starter/releases/download/v1/work-ledger-v1.zip),
+then follow [START-HERE.md](START-HERE.md). It covers Windows and Mac, with
+separate steps where the operating system or app requires them. Extract the
+self-contained release ZIP into a new folder. Keep its contents
 together. GitHub's automatic source-code ZIP and an ordinary clone are different
 artifacts.
 
@@ -23,14 +24,12 @@ Your chosen AI provider still processes the content you use through its app.
 
 For the maintained setup instructions, use [START-HERE.md](START-HERE.md).
 
-## Preview status
+## First public release
 
-v1 is a limited preview. The instructions cover both apps and operating
-systems, but the release does not certify every combination. Read the
-[release notes](https://github.com/automatedteach/work-ledger-starter/releases/tag/v1)
-for the exact testing coverage and known limits before relying on it. Assistant
-compliance with written rules can vary; keep a backup and stop if a save or
-permission request is unclear.
+v1 is the first public release of Work Ledger. See the
+[release page](https://github.com/automatedteach/work-ledger-starter/releases/tag/v1)
+for the starter ZIP and release information. Feedback from real projects will
+help shape future updates.
 
 ## First use
 
@@ -115,9 +114,8 @@ Use GitHub issues for reproducible bugs. Include the release filename,
 operating system, app, step and what happened; remove private material before
 sharing.
 
-Technical maintainers should read `PROTOCOL.md` and `TRACER.md`. Support is
-established by external acceptance evidence for the actual package and tested
-environments; this text does not self-certify a runtime.
+Technical maintainers should read [PROTOCOL.md](PROTOCOL.md) and
+[TRACER.md](TRACER.md).
 
 The optional unsigned helper described in [TIER-1-OPTIONAL.md](TIER-1-OPTIONAL.md)
 is not bundled or activated. A person must deliberately obtain, inspect,
