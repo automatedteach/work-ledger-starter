@@ -15,6 +15,14 @@ The starter supplies no executable program. Your assistant uses its normal file
 tools and Git. Local saves do not upload the ledger or turn on remote backup.
 Your chosen AI provider still processes the content you use through its app.
 
+## Read the three-part series
+
+- **Context:** [Agentic Harnesses Need a Proper Workspace](https://automatedteach.com/p/agentic-harnesses-need-a-proper-workspace) explains why the workspace around an AI assistant matters and where tools like Work Ledger fit.
+- **Architecture:** [Teach Your AI to Keep a Lab Notebook](https://automatedteach.com/p/teach-your-ai-to-keep-a-lab-notebook) explains the Ledger's design, its lab-notebook discipline, and the alternatives.
+- **Installation:** [How to Give Your AI a Head Start](https://automatedteach.com/p/how-to-give-your-ai-a-head-start) walks through installing the starter, using it, and evaluating it on a real project.
+
+For the maintained setup instructions, use [START-HERE.md](START-HERE.md).
+
 ## Preview status
 
 v1 is a limited preview. The instructions cover both apps and operating
