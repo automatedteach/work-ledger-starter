@@ -117,6 +117,8 @@ sharing.
 Technical maintainers should read [PROTOCOL.md](PROTOCOL.md) and
 [TRACER.md](TRACER.md).
 
+For more on the development process, with a focus on evaluation, see [the technical companion](https://automatedteach.com/p/designing-tests-for-agentic-ai-tools).
+
 The optional unsigned helper described in [TIER-1-OPTIONAL.md](TIER-1-OPTIONAL.md)
 is not bundled or activated. A person must deliberately obtain, inspect,
 hash-verify and install it. The default route remains Tier 0 without it.
