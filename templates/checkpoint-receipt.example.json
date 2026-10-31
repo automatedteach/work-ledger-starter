@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "kind": "work-ledger-checkpoint-receipt",
+  "checkpoint_id": "<allocated-checkpoint-id>",
+  "dossier_path": "<validated-initialized-dossier-path>",
+  "object_format": "<observed-sha1-or-sha256>",
+  "scope": "<validated-checkpoint-scope>",
+  "save_actor": "<authorized-assistant-or-owner>",
+  "protected_review_required": "<replace-with-classified-JSON-boolean>",
+  "authority": {
+    "kind": "<validated-authority-table-kind>",
+    "evidence": "<matching-authority-table-evidence>",
+    "scope": "<same-as-checkpoint-scope>",
+    "confirmed_at": "<actual-authority-confirmation-UTC-milliseconds>"
+  },
+  "ledger_id": "<allocated-or-validated-ledger-UUID>",
+  "profile_id": "<allocated-or-validated-profile-UUID>",
+  "profile_version": "<replace-with-validated-positive-JSON-integer>",
+  "base_head_oid": "<verified-full-lowercase-base-HEAD-OID>",
+  "base_branch": "<verified-branch-or-replace-with-JSON-null>",
+  "declared_paths": [
+    {
+      "path": "<one-validated-declared-path>",
+      "prior_type": "<verified-absent-or-regular>",
+      "prior_mode": null,
+      "prior_blob_oid": null,
+      "prior_sha256": null,
+      "current_marker": "<verified-prior-partial-or-intended>",
+      "current_type": "<verified-absent-or-regular>",
+      "current_mode": null,
+      "current_sha256": null,
+      "intended_type": null,
+      "intended_mode": null,
+      "intended_blob_oid": null,
+      "intended_sha256": null
+    }
+  ],
+  "source_inputs": [],
+  "state": "drafting",
+  "blocked_from_state": null,
+  "staged_tree_oid": null,
+  "review_evidence_path": null,
+  "review_evidence_sha256": null,
+  "review_attempts": [],
+  "commit_message_path": null,
+  "commit_message_sha256": null,
+  "commit_oid": null,
+  "recovery_snapshots": [],
+  "authority_rebind": null,
+  "post_commit_actions": [],
+  "post_commit_summary": {
+    "status": "<pending-for-ingestion-phase-one-otherwise-not-applicable>",
+    "deleted_count": 0,
+    "moved_count": 0,
+    "left_count": 0
+  },
+  "last_verified_transition": {
+    "from": null,
+    "to": "drafting",
+    "at": "<actual-initial-creation-UTC-milliseconds>"
+  },
+  "blocker": null
+}

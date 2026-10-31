@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "profile_id": "work-ledger-v1-desktop-macos-standard",
+  "release_version": "v1.1",
+  "status": "external_acceptance_required",
+  "platform": "macOS",
+  "harness": "Claude Desktop (Local)",
+  "template_path": ".claude/policies/desktop-macos-standard.settings-local.example.json",
+  "active_path": ".claude/settings.local.json",
+  "template_sha256": "73986bc7ae42cb00cbbfd4a98aa305f0a51cac291911cbce3cd03f99a1d24c6c",
+  "shared_settings_sha256": "00e8bd01083817abaf5be7232fc5d6d766b56bebbd4db731af3e0163aee3a8d6",
+  "activation": "guarded_manual_copy_before_first_open",
+  "qualification": "Support requires an external acceptance record binding the exact release package and observed Desktop, engine, model, mode, macOS build, architecture, Git, native shell and effective-settings evidence; declared tested breadth does not imply every combination."
+}

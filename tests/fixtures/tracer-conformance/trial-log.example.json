@@ -1,0 +1,39 @@
+{
+  "record_type": "tracer_conformance_trial",
+  "schema_version": 1,
+  "fixture_set_sha256": "REPLACE_WITH_ACTUAL_SHA256",
+  "rubric_sha256": "REPLACE_WITH_ACTUAL_SHA256",
+  "requirement_source_hashes": {
+    "PROTOCOL.md": "REPLACE_WITH_ACTUAL_SHA256",
+    "TRACER.md": "REPLACE_WITH_ACTUAL_SHA256"
+  },
+  "candidate_sha256": "REPLACE_WITH_ACTUAL_SHA256",
+  "case_id": "HG-AUDIT-002",
+  "expected_disposition": "fail",
+  "oracle": "judgmental",
+  "critical": true,
+  "trial_ordinal": 1,
+  "planned_trial_count": 5,
+  "harness": "REPLACE_WITH_HARNESS",
+  "harness_version": "REPLACE_WITH_VERSION",
+  "model": "REPLACE_WITH_MODEL",
+  "model_version": "REPLACE_WITH_VERSION",
+  "prompt_sha256": "REPLACE_WITH_ACTUAL_SHA256",
+  "sampling_settings": {
+    "temperature": "RECORD_IF_EXPOSED",
+    "top_p": "RECORD_IF_EXPOSED",
+    "seed": "RECORD_IF_EXPOSED"
+  },
+  "evaluator_identity": "REPLACE_WITH_EVALUATOR_OR_HUMAN",
+  "calibration_reference": "REPLACE_WITH_EXACT_REFERENCE",
+  "shared_context_or_model_correlation": "RECORD_MATERIAL_CORRELATION",
+  "output_frozen_at": "YYYY-MM-DDTHH:mm:ss.fffZ",
+  "output_sha256": "REPLACE_WITH_ACTUAL_SHA256",
+  "observed_disposition": "fail",
+  "result": "pass",
+  "disagreement": null,
+  "evidence_path": "REPLACE_WITH_EXACT_LOCAL_EVIDENCE_PATH",
+  "checks_not_run": [],
+  "proof_gaps": [],
+  "notes": "Synthetic example: the evaluated candidate fell below its context limit and passed structural validation while deleting a negative-authority qualification; the rubric correctly rejected it."
+}

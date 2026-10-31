@@ -1,0 +1,7 @@
+interface:
+  display_name: "Intake Ingest"
+  short_description: "Run the Work Ledger intake ingest procedure with protocol guardrails."
+  default_prompt: "Use $intake-ingest to process confirmed intake files through the Work Ledger protocol."
+
+policy:
+  allow_implicit_invocation: false

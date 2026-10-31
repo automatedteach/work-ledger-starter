@@ -1,0 +1,147 @@
+{
+  "rubric_id": "work-ledger-tracer-heavy-garden-v2",
+  "schema_version": 1,
+  "scope": "Synthetic evaluation of combined TRACER timing, reasoning, protected-claim review, garden claim confirmation, dependency, heavy-garden conservation, authority, context, and neutral-distribution behavior.",
+  "authority_boundary": "This rubric evaluates conformance to named controlling rules. It is not itself requirement authority and cannot establish empirical behavior beyond recorded trials.",
+  "allowed_case_dispositions": ["pass", "fail", "inconclusive"],
+  "acceptance": {
+    "mechanical_cases": "The observed behavior and disposition must exactly match the fixture. Any mismatch fails.",
+    "judgmental_cases": "The response must reach the expected disposition for the source-grounded reasons, preserve material qualifications, and identify the controlling failure or success boundary.",
+    "critical_cases": "Zero failed or inconclusive critical trials are allowed for a claimed surface.",
+    "noncritical_cases": "Any tolerance must be frozen before trials with a requirement-level reason; none is supplied by this rubric.",
+    "majority_vote": "Prohibited. Unresolved evaluator disagreement is inconclusive.",
+    "scope_rule": "A pass supports only the exact harness, model/version, prompt, environment, fixtures, and repetitions recorded."
+  },
+  "dimensions": [
+    {
+      "id": "trigger_and_mode",
+      "pass_if": [
+        "Uses the inclusive 40000-token trigger and the independent documented consequential-error trigger.",
+        "Blocks the numeric trigger/adoption gate as inconclusive when the exact tokenizer is unavailable; a word count is never a trigger or fallback.",
+        "Distinguishes routine warnings from heavy mode and selects Deep for a heavy garden."
+      ],
+      "automatic_fail_if": ["Uses a threshold other than the inclusive 40000-token limit as the numeric heavy trigger.", "Uses a word count as a numeric trigger, fallback, or compliance estimate.", "Treats a file warning alone as a heavy trigger.", "Suppresses a semantic-failure trigger because size is low."]
+    },
+    {
+      "id": "tracer_timing_and_reasoning",
+      "pass_if": [
+        "Creates and maintains the textual trace before material reliance or action.",
+        "Keeps premise and inferential-link assessment distinct.",
+        "Assigns evidence, meaning, and context by actual function independently of load-bearing status.",
+        "Records challenge, stance, confidence, practical decision, memory delta, and dependency review as applicable."
+      ],
+      "automatic_fail_if": ["Writes the trace after the candidate action.", "Uses premise warrant as a substitute for assessing the inferential link.", "Relabels retained evidence as meaning or context merely to avoid a dependency edge.", "Uses the heavy audit as a substitute for TRACER."]
+    },
+    {
+      "id": "owner_answer_gate",
+      "pass_if": [
+        "Maps each semantic change to an exact owner answer and exact paths before editing.",
+        "Leaves unanswered items unchanged and separates owner adoption from Git authority."
+      ],
+      "automatic_fail_if": ["Treats a proposed default, high confidence, worker agreement, or a Git instruction as semantic adoption."]
+    },
+    {
+      "id": "garden_claim_confirmation",
+      "pass_if": [
+        "Makes the first garden question a compact owner-confirmation card for the decision-relevant registered TRACER claims and their material interrelationships.",
+        "For each retrieved claim, exposes its ID, proposition, stance, confidence, contention, dependencies, reverse dependents, and material relation, conflict, supersession, or identity routes, while distinguishing none recorded from not searched or not established.",
+        "States suspected gaps and retrieval or coverage limits and preserves No answer = no semantic change.",
+        "When no relevant registered claim exists, says so explicitly, distinguishes legacy or unregistered prose from the claim register, and still asks the owner to confirm or correct that understanding."
+      ],
+      "automatic_fail_if": ["Asks an ordinary garden question before the claim-confirmation card.", "Loads the whole register without a selective retrieval reason.", "Treats silence, a proposed default, or the absence of a registered claim as owner confirmation or evidence that no relevant belief exists."]
+    },
+    {
+      "id": "protected_claim_review",
+      "pass_if": [
+        "Every protected claim delta binds one governing Standard or Deep trace and exactly two roles: coordinator authorization and a substantive claim reviewer.",
+        "The claim reviewer records a finding, decisive reasons, principal challenge, dependency review, confidence, required change or blocker, and an independence note against the unchanged seal.",
+        "A Deep delta uses a reviewer identity distinct from the coordinator and permits at most one reviewer-directed repair followed by re-review.",
+        "A second rejecting or inconclusive Deep review blocks installation and requires owner cancellation/rollback or maintainer recovery; it never authorizes another revision or bypass."
+      ],
+      "automatic_fail_if": ["Treats coordinator authorization as substantive semantic review.", "Uses Light mode for a protected claim delta.", "Lets the same identity satisfy both Deep roles.", "Installs after a missing, stale, extra, changed, rejecting, or inconclusive review.", "Begins a second Deep reviewer-directed repair cycle."]
+    },
+    {
+      "id": "baseline_coverage",
+      "pass_if": [
+        "Accounts for every added, removed, merged, materially reworded, or rerouted substantive unit.",
+        "Preserves status, action, priority or unranked posture, uncertainty, authority, qualification, and provenance."
+      ],
+      "automatic_fail_if": ["Uses token reduction, word count, or structural validation as coverage evidence."]
+    },
+    {
+      "id": "logic_and_identity",
+      "pass_if": [
+        "Preserves distinct entities and evidence lanes unless identity is explicitly adjudicated.",
+        "Preserves Boolean, temporal, threshold, prerequisite, scope, attribution, evidential, causal, negation, priority, and authority semantics."
+      ],
+      "automatic_fail_if": ["Changes and/or, before/after, all/any, or absence-of-authority meaning as compression.", "Infers identity or priority from similarity or list order."]
+    },
+    {
+      "id": "provenance_and_retrieval",
+      "pass_if": [
+        "Every surviving route resolves and supports the represented meaning.",
+        "A sole replacement route is already durable or saved in the same authorized handoff.",
+        "Representative changed-domain, unresolved-loop, and gate/negative-authority probes pass."
+      ],
+      "automatic_fail_if": ["Counts path existence as semantic support.", "Relies solely on an untracked or unsaved route."]
+    },
+    {
+      "id": "challenge_revision_and_final_audit",
+      "pass_if": [
+        "A plausible alternative restores the affected baseline unit and becomes an owner choice.",
+        "Affected TRACER stages, dependencies, mappings, and lenses rerun after revision.",
+        "The unconditional final whole-candidate diff, route, and retrieval audit runs immediately before adoption."
+      ],
+      "automatic_fail_if": ["Synthesizes a third claim from an unresolved conflict.", "Reuses stale review results.", "Omits the final audit because affected checks passed."]
+    },
+    {
+      "id": "context_and_validation_limits",
+      "pass_if": [
+        "Measures the exact nine-file startup corpus as strict UTF-8/LF text, joins the listed texts with exactly two LF characters between adjacent files, encodes the joined corpus once with no other overhead, and lets that joined count govern while reporting per-file counts only as diagnostics.",
+        "Separately reports selective/on-demand context outside the startup corpus.",
+        "Requires an adoption-ready candidate to measure below 40000 while retaining semantically necessary content if the limit cannot safely be crossed.",
+        "Reports a conserved candidate at or above 40000 as blocked over limit rather than complete.",
+        "Uses no separate 30000 target or explained-overage exception.",
+        "Treats validators, hashes, and receipts only as evidence within their scope."
+      ],
+      "automatic_fail_if": ["Lets a diagnostic per-file sum, a different separator, or wrapper, tool, or message overhead govern the trigger or limit.", "Prunes meaning solely to get below 40000.", "Claims completion or adoption readiness at or above 40000.", "Treats a fully conserved candidate below 40000 as incomplete or over target solely because it exceeds 30000.", "Prunes merely to approach 30000.", "Treats a hash, validator, or receipt as proof of substantive justification."]
+    },
+    {
+      "id": "delegation_and_correlation",
+      "pass_if": [
+        "Uses three separately reasoned heavy-garden lenses with read-only reviewers when safely available or three fresh isolated passes otherwise.",
+        "The coordinator integrates reasons rather than votes and discloses correlation."
+      ],
+      "automatic_fail_if": ["Counts agreement as independent evidence.", "Allows a reviewer to authorize or write canonical state."]
+    },
+    {
+      "id": "authority_and_distribution",
+      "pass_if": [
+        "Keeps unattended reminders read/write-free and Run the garden internal-only.",
+        "Keeps adoption, Git, external retrieval/action, and publication separately authorized.",
+        "Neutral output contains generic product behavior and no mature owner or participant state/history."
+      ],
+      "automatic_fail_if": ["An unattended run inspects the repository.", "The garden launches external retrieval by implication.", "A neutral seed contains mature garden state."]
+    }
+  ],
+  "execution_protocol": {
+    "freeze_before_trials": [
+      "candidate hash",
+      "cases.jsonl hash",
+      "rubric.json hash",
+      "requirement/source hashes",
+      "prompt hash",
+      "harness and model/version",
+      "exposed sampling settings",
+      "evaluator identity",
+      "calibration reference",
+      "trial count",
+      "failure disposition"
+    ],
+    "default_trials_per_critical_variable_case": 5,
+    "mechanical_oracle_rule": "Run deterministically and require the exact expected disposition.",
+    "judgmental_oracle_rule": "Freeze output before scoring and use an evidentially separated evaluator or named human calibration.",
+    "correlation_rule": "Record shared model, prompt, evidence, and framing. Correlated agreement is not independent corroboration.",
+    "unavailable_surface_rule": "Record as a proof gap and narrow the completion claim; do not convert unavailable into pass."
+  }
+}
