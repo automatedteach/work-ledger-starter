@@ -5,7 +5,8 @@ decisions, working material and unresolved questions. You keep that context in
 a folder on your computer and use it through Claude Desktop Code/Local or Codex
 desktop Local.
 
-Start with [START-HERE.md](START-HERE.md) for a new ledger. See
+Download [work-ledger-v1.1.zip](https://github.com/automatedteach/work-ledger-starter/releases/download/v1.1/work-ledger-v1.1.zip),
+then follow [START-HERE.md](START-HERE.md) for a new ledger. See
 [V1.1-UPDATE.md](V1.1-UPDATE.md) for the dedicated-writer workflow and the
 existing-ledger boundary. It covers Windows and Mac, with
 separate steps where the operating system or app requires them. Use the named,
@@ -16,6 +17,14 @@ artifacts.
 The starter supplies no executable program. Your assistant uses its normal file
 tools and Git. Local saves do not upload the ledger or turn on remote backup.
 Your chosen AI provider still processes the content you use through its app.
+
+## Read the three-part series
+
+- **Context:** [Agentic Harnesses Need a Proper Workspace](https://automatedteach.com/p/agentic-harnesses-need-a-proper-workspace) explains why the workspace around an AI assistant matters and where tools like Work Ledger fit.
+- **Architecture:** [Teach Your AI to Keep a Lab Notebook](https://automatedteach.com/p/teach-your-ai-to-keep-a-lab-notebook) explains the Ledger's design, its lab-notebook discipline, and the alternatives.
+- **Installation:** [How to Give Your AI a Head Start](https://automatedteach.com/p/how-to-give-your-ai-a-head-start) walks through installing the starter, using it, and evaluating it on a real project.
+
+For the maintained setup instructions, use [START-HERE.md](START-HERE.md).
 
 ## What is new in v1.1
 
@@ -48,15 +57,15 @@ saving for setup and ingestion does not also enable it for every task.
 
 ## Everyday use
 
-Open the same folder and ask your assistant normally. List all known
-requirements at the start of one ledger conversation. Add incoming work to that
-same conversation while its work remains unfinished or unsaved. Once the work
-is completed and saved, start the next conversation.
+Open the same folder and ask your assistant normally. Without dedicated-writer
+enrollment, keep one active writing conversation per ledger folder. List the
+known requirements at its start and add incoming work there while its work is
+unfinished or unsaved. Start the next writing conversation after saving.
 
-Without dedicated-writer enrollment, keep one active writing conversation per
-ledger folder. With enrollment, use separate task chats as readers/proposers
-and release selected results to the designated writer. They do not independently
-change the ledger. Stop or refresh old writing chats before activating this mode.
+With dedicated-writer enrollment, keep the writer conversation and use separate
+task chats as readers/proposers. Review their results and release selected
+updates to the writer. They do not independently change the ledger. Stop or
+refresh old writing chats before activating this mode.
 
 Useful requests:
 
@@ -101,22 +110,24 @@ history is the saved record; keep a backup of the folder too.
 ## Existing ledgers and other devices
 
 This starter creates a new ledger. Do not copy it over an existing ledger.
-This candidate provides no in-place v1 upgrade. Migration and synchronization
+v1.1 provides no in-place v1 upgrade. Migration and synchronization
 between devices remain separately scoped work. The maintained references are
 [MIGRATE-AN-EXISTING-LEDGER.md](MIGRATE-AN-EXISTING-LEDGER.md) and
 [SYNC-BETWEEN-DEVICES.md](SYNC-BETWEEN-DEVICES.md). Neither is activated by setup.
 
 ## Help and technical reference
 
-For installation or everyday-use help, see the contact details on the release page.
-Use GitHub issues for reproducible bugs. Include the release filename,
+For installation or everyday-use help, see the [release page](https://github.com/automatedteach/work-ledger-starter/releases/tag/v1.1).
+Use [GitHub Issues](https://github.com/automatedteach/work-ledger-starter/issues) for reproducible bugs. Include the release filename,
 operating system, app, step and what happened; remove private material before
 sharing.
 
 Technical maintainers should read [PROTOCOL.md](PROTOCOL.md) and
-[TRACER.md](TRACER.md). Support is
-established by external acceptance evidence for the actual package and tested
-environments; this text does not self-certify a runtime.
+[TRACER.md](TRACER.md). See the [release notes](https://github.com/automatedteach/work-ledger-starter/releases/tag/v1.1)
+for package identity and observed runtime coverage.
+
+For more on the development process, with a focus on evaluation, see
+[the technical companion](https://automatedteach.com/p/designing-tests-for-agentic-ai-tools).
 
 The optional unsigned helper described in [TIER-1-OPTIONAL.md](TIER-1-OPTIONAL.md)
 is not bundled or activated. A person must deliberately obtain, inspect,

@@ -1,7 +1,8 @@
 # Start Here — Work Ledger v1.1
 
 This guide starts a new ledger on Windows or Mac using Claude Desktop
-Code/Local or Codex desktop Local. Use the named self-contained release ZIP,
+Code/Local or Codex desktop Local. Download
+[work-ledger-v1.1.zip](https://github.com/automatedteach/work-ledger-starter/releases/download/v1.1/work-ledger-v1.1.zip),
 extract it into a new folder and keep its contents together. Do not copy it
 over an existing ledger or substitute GitHub's automatic source-code ZIP.
 The optional dedicated-writer mode uses the same roles in both apps on Windows
@@ -157,12 +158,14 @@ stored as sources move to the holding folder. The card states the full contract.
 
 ## 6. Work normally
 
-List all known requirements at the start of one ledger conversation. Add
-incoming work to that same conversation while its work is unfinished or
-unsaved. Start the next conversation after completion and saving. Keep one
-active writing conversation per ledger folder unless you deliberately enable
-the supported dedicated-writer mode in [V1.1-UPDATE.md](V1.1-UPDATE.md).
-Then other enrolled task chats propose and the designated writer reconciles.
+Without dedicated-writer mode, keep one active writing conversation per ledger
+folder. List its known requirements at the start and add incoming work there
+while its work is unfinished or unsaved. Start the next writing conversation
+after completion and saving.
+
+If you enable [dedicated-writer mode](V1.1-UPDATE.md), keep that writer
+conversation and work in separate reader/proposer task chats. Release selected
+results to the designated writer for reconciliation.
 
 Saving completed ordinary tasks has a separate one-time opt-in. The assistant
 will offer it when appropriate. Reply
@@ -185,11 +188,11 @@ permissions can be reused within their scope; see
 [EXTERNAL-CONTEXT-AND-GARDEN.md](EXTERNAL-CONTEXT-AND-GARDEN.md) for the first
 qualification and later-use procedures.
 
-For help, use the release page contact details. Report reproducible bugs through
-GitHub with your release filename, OS, app, step and observed result. Remove
+For help, use the [release page](https://github.com/automatedteach/work-ledger-starter/releases/tag/v1.1) contact details. Report reproducible bugs through
+[GitHub Issues](https://github.com/automatedteach/work-ledger-starter/issues) with your release filename, OS, app, step and observed result. Remove
 private content from anything shared.
 
-Use the release notes for exact package and observed runtime coverage. Both
+Use the [release notes](https://github.com/automatedteach/work-ledger-starter/releases/tag/v1.1) for exact package and observed runtime coverage. Both
 harnesses on Windows and Mac have implemented reader/writer procedures; source
 inspection is not an executed native journey. Automatic cross-app/cross-host
 messaging is not promised. Existing serial routes retain their evidence limits.
